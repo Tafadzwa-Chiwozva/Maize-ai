@@ -1,0 +1,19 @@
+# Python virtual environment — contains installed packages, not your code
+venv/
+
+# Downloaded model files — large binary files (~6 MB), re-downloadable from HuggingFace
+model/
+
+# Python cache files — auto-generated, not needed in version control
+__pycache__/
+*.pyc
+*.pyo
+
+# Test images — usually not committed unless they are official demo assets
+images/
+
+# Environment variables file — never commit secrets or API keys
+.env
+
+# macOS system file
+.DS_Store

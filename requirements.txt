@@ -1,0 +1,16 @@
+# Core ML framework — used to load and run the TensorFlow model
+tensorflow>=2.12
+
+# Image loading and resizing — PIL (Pillow) opens JPG/PNG files from farmers' phones
+pillow
+
+# Numerical arrays — converts images into number grids the model can process
+numpy
+
+# Hugging Face download utility — pulls the pre-trained model from huggingface.co
+huggingface_hub
+
+# --- Web backend dependencies ---
+fastapi          # Web framework for the prediction API endpoint
+uvicorn          # Server that runs the FastAPI app
+python-multipart # Handles image file uploads via HTTP POST
